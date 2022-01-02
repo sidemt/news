@@ -1,4 +1,4 @@
-const { readFileSync, writeFileSync, mkdirSync } = require('fs');
+const { readFileSync, writeFileSync, mkdirSync } = require('graceful-fs');
 const md5 = require('md5');
 const { parse, normalize } = require('path');
 const sitePath = require('../site-path');

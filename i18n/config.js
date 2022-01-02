@@ -1,6 +1,6 @@
 const i18next = require('i18next');
 const Backend = require('i18next-fs-backend');
-const { readdirSync, lstatSync } = require('fs');
+const { readdirSync, lstatSync } = require('graceful-fs');
 const { join } = require('path');
 const { currentLocale_i18n, currentLocale_i18nISOCode } = require('../config');
 

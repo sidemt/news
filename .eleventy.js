@@ -1,4 +1,4 @@
-const { readFileSync, readdirSync, writeFileSync } = require('fs');
+const { readFileSync, readdirSync, writeFileSync } = require('graceful-fs');
 const pluginRSS = require('@11ty/eleventy-plugin-rss');
 const cssMin = require('./utils/transforms/css-min');
 const jsMin = require('./utils/transforms/js-min');
